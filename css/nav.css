@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #fcfcfc;
+  border: 1px solid #fbfbfb;
+  padding: 15px 38px;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__list-number {
+  position: absolute;
+  top: -10px;
+  right: -7px;
+  font-size: 13px;
+  color: white;
+  background-color: #e46143;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

@@ -2,6 +2,11 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;
@@ -9,6 +14,7 @@ body {
   color: #2b2b2b;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100000px;
 }
 
 a {
