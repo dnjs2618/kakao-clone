@@ -1,0 +1,41 @@
+.more .more__btn-list,
+.more .more__suggestions-list {
+  border-bottom: 1px solid #fbfbfb;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.more__btn-list .more__btn,
+.more__suggestions-list .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 45px;
+  font-size: 14px;
+}
+
+.more__btn .more__btn-title {
+  margin-top: 10px;
+}
+
+.more__suggestions .more__suggestions-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+.suggestion .suggestion__icon {
+  background-color: #fae100;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion .sugeestion__title {
+  margin-top: 10px;
+  opacity: 0.8;
+}
