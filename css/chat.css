@@ -171,6 +171,10 @@
   width: 100%;
 }
 
+.chats {
+  padding-top: 100px;
+}
+
 @keyframes incomingAnim {
   from {
     transform: translateX(-200px);

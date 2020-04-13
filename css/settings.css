@@ -1,5 +1,5 @@
 .settings .settings__section {
-  border-top: 1px solid #fbfbfb;
+  border-top: 2px solid #fbfbfb;
   padding: 18px 0px;
   margin: 10px 0px;
 }
@@ -16,4 +16,8 @@
 }
 .settings__section .setting__title {
   font-weight: 600;
+}
+
+.settings{
+  padding-top:80px;
 }
